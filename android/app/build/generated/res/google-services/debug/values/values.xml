@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">562366545037-3abkp064ra1jt9nclon126umu3141eqk.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">562366545037</string>
+    <string name="google_api_key" translatable="false">AIzaSyC8z0-Zbh6ejnJZisisSV3GMSnnA2Whfks</string>
+    <string name="google_app_id" translatable="false">1:562366545037:android:b7c14076219f2282d476c4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC8z0-Zbh6ejnJZisisSV3GMSnnA2Whfks</string>
+    <string name="google_storage_bucket" translatable="false">ryori-pushnotifications.appspot.com</string>
+    <string name="project_id" translatable="false">ryori-pushnotifications</string>
+</resources>

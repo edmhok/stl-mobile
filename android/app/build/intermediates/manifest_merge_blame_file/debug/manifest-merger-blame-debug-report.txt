@@ -1,0 +1,501 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ryorimobile"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:5:5-66
+13-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:5:22-63
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.125.0] /Users/mhokzone/.gradle/caches/transforms-3/3b52310e0e3fc0beeef4808dce2ede06/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.125.0] /Users/mhokzone/.gradle/caches/transforms-3/3b52310e0e3fc0beeef4808dce2ede06/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+16-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+17-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
+18-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:22-74
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
+19-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:22-79
+20    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+20-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/ce633d765c8ab56576129661aa6f7051/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:25:5-79
+20-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/ce633d765c8ab56576129661aa6f7051/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:25:22-76
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+21-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:26:22-107
+22    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+23    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+24    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+25    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+26    <!-- for Samsung -->
+27    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+27-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+27-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+28    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+28-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+28-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+29    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+29-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+29-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+30    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+30-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+30-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+31    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+31-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+31-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+32    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+32-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+32-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+33    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+33-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+33-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+34    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+34-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+34-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+35    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+35-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+35-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+36    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+37    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+38    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+39    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+40    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+41    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+42    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/mhokzone/.gradle/caches/transforms-3/077f54d88b2dd80f96b3a67997a215a2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+43
+44    <application
+44-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:8:5-53:19
+45        android:name="com.ryorimobile.MainApplication"
+45-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:9:7-38
+46        android:allowBackup="false"
+46-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:13:7-34
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.7.0] /Users/mhokzone/.gradle/caches/transforms-3/04d427402dec0c95423f34d523bb4ec2/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+48        android:debuggable="true"
+49        android:icon="@mipmap/ic_launcher"
+49-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:11:7-41
+50        android:label="@string/app_name"
+50-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:10:7-39
+51        android:roundIcon="@mipmap/ic_launcher_round"
+51-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:12:7-52
+52        android:theme="@style/AppTheme"
+52-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:14:7-38
+53        android:usesCleartextTraffic="true" >
+53-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/debug/AndroidManifest.xml:8:9-44
+54        <activity
+54-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/debug/AndroidManifest.xml:11:9-111
+55            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+55-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/debug/AndroidManifest.xml:11:19-83
+56            android:exported="false" />
+56-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/debug/AndroidManifest.xml:11:84-108
+57        <activity
+57-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:15:7-27:18
+58            android:name="com.ryorimobile.MainActivity"
+58-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:16:9-37
+59            android:configChanges="keyboard|keyboardHidden|screenLayout|orientation|screenSize|smallestScreenSize|uiMode"
+59-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:18:9-118
+60            android:exported="true"
+60-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:22:9-32
+61            android:label="@string/app_name"
+61-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:17:9-41
+62            android:launchMode="singleTask"
+62-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:19:9-40
+63            android:screenOrientation="portrait"
+63-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:20:9-45
+64            android:windowSoftInputMode="adjustResize" >
+64-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:21:9-51
+65            <intent-filter>
+65-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:23:9-26:25
+66                <action android:name="android.intent.action.MAIN" />
+66-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:24:13-65
+66-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:24:21-62
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:25:13-73
+68-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:25:23-70
+69            </intent-filter>
+70        </activity> <!-- Change the value to true to enable pop-up for in foreground on receiving remote notifications (for prevent duplicating while showing local notifications set this to false) -->
+71        <meta-data
+71-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:29:9-30:44
+72            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+72-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:29:21-97
+73            android:value="false" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+73-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:30:21-42
+74        <meta-data
+74-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:32:9-33:54
+75            android:name="com.dieam.reactnativepushnotification.notification_color"
+75-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:32:21-92
+76            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+76-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:33:21-52
+77        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+77-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:35:9-108
+77-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:35:19-105
+78        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+78-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:36:9-110
+78-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:36:19-107
+79        <receiver
+79-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:37:9-44:20
+80            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+80-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:37:19-115
+81            android:exported="true" >
+81-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:38:9-32
+82            <intent-filter>
+82-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:39:13-43:29
+83                <action android:name="android.intent.action.BOOT_COMPLETED" />
+83-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:40:17-79
+83-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:40:25-76
+84                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+84-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:41:17-82
+84-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:41:25-79
+85                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+85-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:42:17-81
+85-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:42:25-79
+86            </intent-filter>
+87        </receiver>
+88
+89        <service
+89-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:46:9-52:19
+90            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+90-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:47:13-107
+91            android:exported="false" >
+91-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:48:13-37
+92            <intent-filter>
+92-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:49:13-51:29
+93                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+93-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:50:17-78
+93-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:50:25-75
+94            </intent-filter>
+95        </service>
+96        <service
+96-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+97            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+97-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
+98            android:exported="false" />
+98-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+99        <service
+99-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
+100            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+100-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
+101            android:exported="false" >
+101-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+102            <intent-filter>
+102-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:49:13-51:29
+103                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+103-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:50:17-78
+103-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:50:25-75
+104            </intent-filter>
+105        </service>
+106
+107        <receiver
+107-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
+108            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+108-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
+109            android:exported="true"
+109-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+110            android:permission="com.google.android.c2dm.permission.SEND" >
+110-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
+111            <intent-filter>
+111-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+112                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+112-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+112-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+113            </intent-filter>
+114        </receiver>
+115
+116        <meta-data
+116-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
+117            android:name="firebase_messaging_auto_init_enabled"
+117-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
+118            android:value="true" />
+118-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
+119        <meta-data
+119-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
+120            android:name="com.google.firebase.messaging.default_notification_channel_id"
+120-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
+121            android:value="" />
+121-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
+122        <meta-data
+122-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:47
+123            android:name="com.google.firebase.messaging.default_notification_color"
+123-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-84
+124            android:resource="@color/white" />
+124-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44
+125        <meta-data
+125-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+126            android:name="app_data_collection_default_enabled"
+126-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+127            android:value="true" />
+127-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+128
+129        <service
+129-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+130            android:name="com.google.firebase.components.ComponentDiscoveryService"
+130-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+131            android:directBootAware="true"
+131-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+132            android:exported="false" >
+132-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+133            <meta-data
+133-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+134                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+134-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+137                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+137-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+139            <meta-data
+139-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/ce633d765c8ab56576129661aa6f7051/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:31:13-33:85
+140                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+140-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/ce633d765c8ab56576129661aa6f7051/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:32:17-139
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/ce633d765c8ab56576129661aa6f7051/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:33:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/mhokzone/.gradle/caches/transforms-3/0755d4008664141097c38d56372312b5/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+143                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+143-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/mhokzone/.gradle/caches/transforms-3/0755d4008664141097c38d56372312b5/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/mhokzone/.gradle/caches/transforms-3/0755d4008664141097c38d56372312b5/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-installations:17.1.3] /Users/mhokzone/.gradle/caches/transforms-3/af4b0d759dd1dca1752b5c3c433e4e38/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+146                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+146-->[com.google.firebase:firebase-installations:17.1.3] /Users/mhokzone/.gradle/caches/transforms-3/af4b0d759dd1dca1752b5c3c433e4e38/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-installations:17.1.3] /Users/mhokzone/.gradle/caches/transforms-3/af4b0d759dd1dca1752b5c3c433e4e38/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+148        </service>
+149
+150        <provider
+150-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+151            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+151-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+152            android:authorities="com.ryorimobile.reactnativefirebaseappinitprovider"
+152-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+153            android:exported="false"
+153-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+154            android:initOrder="99" />
+154-->[:react-native-firebase_app] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+155        <provider
+155-->[:react-native-image-picker] /Users/mhokzone/Works/STL/stlMobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+156            android:name="com.imagepicker.ImagePickerProvider"
+156-->[:react-native-image-picker] /Users/mhokzone/Works/STL/stlMobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+157            android:authorities="com.ryorimobile.imagepickerprovider"
+157-->[:react-native-image-picker] /Users/mhokzone/Works/STL/stlMobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+158            android:exported="false"
+158-->[:react-native-image-picker] /Users/mhokzone/Works/STL/stlMobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+159            android:grantUriPermissions="true" >
+159-->[:react-native-image-picker] /Users/mhokzone/Works/STL/stlMobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+160            <meta-data
+160-->[:react-native-image-picker] /Users/mhokzone/Works/STL/stlMobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+161                android:name="android.support.FILE_PROVIDER_PATHS"
+161-->[:react-native-image-picker] /Users/mhokzone/Works/STL/stlMobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+162                android:resource="@xml/imagepicker_provider_paths" />
+162-->[:react-native-image-picker] /Users/mhokzone/Works/STL/stlMobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+163        </provider>
+164
+165        <activity
+165-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mhokzone/.gradle/caches/transforms-3/e104cb2417f79a570c640e9a531879ac/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+166            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+166-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mhokzone/.gradle/caches/transforms-3/e104cb2417f79a570c640e9a531879ac/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+167            android:excludeFromRecents="true"
+167-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mhokzone/.gradle/caches/transforms-3/e104cb2417f79a570c640e9a531879ac/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+168            android:exported="false"
+168-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mhokzone/.gradle/caches/transforms-3/e104cb2417f79a570c640e9a531879ac/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+169            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+169-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mhokzone/.gradle/caches/transforms-3/e104cb2417f79a570c640e9a531879ac/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+170        <!--
+171            Service handling Google Sign-In user revocation. For apps that do not integrate with
+172            Google Sign-In, this service will never be started.
+173        -->
+174        <service
+174-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mhokzone/.gradle/caches/transforms-3/e104cb2417f79a570c640e9a531879ac/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+175            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+175-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mhokzone/.gradle/caches/transforms-3/e104cb2417f79a570c640e9a531879ac/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+176            android:exported="true"
+176-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mhokzone/.gradle/caches/transforms-3/e104cb2417f79a570c640e9a531879ac/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+177            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+177-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mhokzone/.gradle/caches/transforms-3/e104cb2417f79a570c640e9a531879ac/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+178            android:visibleToInstantApps="true" />
+178-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mhokzone/.gradle/caches/transforms-3/e104cb2417f79a570c640e9a531879ac/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+179
+180        <receiver
+180-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+181            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+181-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+182            android:exported="true"
+182-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+183            android:permission="com.google.android.c2dm.permission.SEND" >
+183-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+184            <intent-filter>
+184-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+185                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+185-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+185-->[:react-native-firebase_messaging] /Users/mhokzone/Works/STL/stlMobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+186            </intent-filter>
+187        </receiver>
+188        <!--
+189             FirebaseMessagingService performs security checks at runtime,
+190             but set to not exported to explicitly avoid allowing another app to call it.
+191        -->
+192        <service
+192-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+193            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+193-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+194            android:directBootAware="true"
+194-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+195            android:exported="false" >
+195-->[com.google.firebase:firebase-messaging:23.1.2] /Users/mhokzone/.gradle/caches/transforms-3/95398c01a0ba58ebabacccf2e4039737/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+196            <intent-filter android:priority="-500" >
+196-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:49:13-51:29
+197                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+197-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:50:17-78
+197-->/Users/mhokzone/Works/STL/stlMobile/android/app/src/main/AndroidManifest.xml:50:25-75
+198            </intent-filter>
+199        </service>
+200
+201        <activity
+201-->[com.google.android.gms:play-services-base:18.0.1] /Users/mhokzone/.gradle/caches/transforms-3/5338eff5cce1e67a07e1cc289ce9d3ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+202            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+202-->[com.google.android.gms:play-services-base:18.0.1] /Users/mhokzone/.gradle/caches/transforms-3/5338eff5cce1e67a07e1cc289ce9d3ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+203            android:exported="false"
+203-->[com.google.android.gms:play-services-base:18.0.1] /Users/mhokzone/.gradle/caches/transforms-3/5338eff5cce1e67a07e1cc289ce9d3ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+204            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+204-->[com.google.android.gms:play-services-base:18.0.1] /Users/mhokzone/.gradle/caches/transforms-3/5338eff5cce1e67a07e1cc289ce9d3ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+205
+206        <provider
+206-->[com.google.firebase:firebase-common:20.3.2] /Users/mhokzone/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+207            android:name="com.google.firebase.provider.FirebaseInitProvider"
+207-->[com.google.firebase:firebase-common:20.3.2] /Users/mhokzone/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+208            android:authorities="com.ryorimobile.firebaseinitprovider"
+208-->[com.google.firebase:firebase-common:20.3.2] /Users/mhokzone/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+209            android:directBootAware="true"
+209-->[com.google.firebase:firebase-common:20.3.2] /Users/mhokzone/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+210            android:exported="false"
+210-->[com.google.firebase:firebase-common:20.3.2] /Users/mhokzone/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+211            android:initOrder="100" />
+211-->[com.google.firebase:firebase-common:20.3.2] /Users/mhokzone/.gradle/caches/transforms-3/b71244348d8ee26315c3f89c5cd94601/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+212
+213        <receiver
+213-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:29:9-33:20
+214            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+214-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:30:13-85
+215            android:enabled="true"
+215-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:31:13-35
+216            android:exported="false" >
+216-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:32:13-37
+217        </receiver>
+218
+219        <service
+219-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:35:9-38:40
+220            android:name="com.google.android.gms.measurement.AppMeasurementService"
+220-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:36:13-84
+221            android:enabled="true"
+221-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:37:13-35
+222            android:exported="false" />
+222-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:38:13-37
+223        <service
+223-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:39:9-43:72
+224            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+224-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:40:13-87
+225            android:enabled="true"
+225-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:41:13-35
+226            android:exported="false"
+226-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:42:13-37
+227            android:permission="android.permission.BIND_JOB_SERVICE" />
+227-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/mhokzone/.gradle/caches/transforms-3/b07a4aad9c5b13ea1607feb0dd0de879/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:43:13-69
+228
+229        <meta-data
+229-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mhokzone/.gradle/caches/transforms-3/02adbba73d6ec46ace4e8e9e7114b753/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+230            android:name="com.google.android.gms.version"
+230-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mhokzone/.gradle/caches/transforms-3/02adbba73d6ec46ace4e8e9e7114b753/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+231            android:value="@integer/google_play_services_version" />
+231-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mhokzone/.gradle/caches/transforms-3/02adbba73d6ec46ace4e8e9e7114b753/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+232
+233        <provider
+233-->[androidx.emoji2:emoji2:1.0.0] /Users/mhokzone/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+234            android:name="androidx.startup.InitializationProvider"
+234-->[androidx.emoji2:emoji2:1.0.0] /Users/mhokzone/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+235            android:authorities="com.ryorimobile.androidx-startup"
+235-->[androidx.emoji2:emoji2:1.0.0] /Users/mhokzone/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+236            android:exported="false" >
+236-->[androidx.emoji2:emoji2:1.0.0] /Users/mhokzone/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+237            <meta-data
+237-->[androidx.emoji2:emoji2:1.0.0] /Users/mhokzone/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+238                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+238-->[androidx.emoji2:emoji2:1.0.0] /Users/mhokzone/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+239                android:value="androidx.startup" />
+239-->[androidx.emoji2:emoji2:1.0.0] /Users/mhokzone/.gradle/caches/transforms-3/30d5586e1a0799093d86ea189e131ea6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+240            <meta-data
+240-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mhokzone/.gradle/caches/transforms-3/b176e43b616f6432ba0e11a3599afc66/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+241                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+241-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mhokzone/.gradle/caches/transforms-3/b176e43b616f6432ba0e11a3599afc66/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+242                android:value="androidx.startup" />
+242-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mhokzone/.gradle/caches/transforms-3/b176e43b616f6432ba0e11a3599afc66/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+243        </provider>
+244
+245        <service
+245-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mhokzone/.gradle/caches/transforms-3/ae241e0ea1caf3552ce4d9dd56a06839/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+246            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+246-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mhokzone/.gradle/caches/transforms-3/ae241e0ea1caf3552ce4d9dd56a06839/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+247            android:exported="false" >
+247-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mhokzone/.gradle/caches/transforms-3/ae241e0ea1caf3552ce4d9dd56a06839/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+248            <meta-data
+248-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mhokzone/.gradle/caches/transforms-3/ae241e0ea1caf3552ce4d9dd56a06839/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+249                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+249-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mhokzone/.gradle/caches/transforms-3/ae241e0ea1caf3552ce4d9dd56a06839/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+250                android:value="cct" />
+250-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mhokzone/.gradle/caches/transforms-3/ae241e0ea1caf3552ce4d9dd56a06839/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+251        </service>
+252        <service
+252-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mhokzone/.gradle/caches/transforms-3/94027eb6f1d52802cc928805d5b009d8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+253            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+253-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mhokzone/.gradle/caches/transforms-3/94027eb6f1d52802cc928805d5b009d8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+254            android:exported="false"
+254-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mhokzone/.gradle/caches/transforms-3/94027eb6f1d52802cc928805d5b009d8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+255            android:permission="android.permission.BIND_JOB_SERVICE" >
+255-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mhokzone/.gradle/caches/transforms-3/94027eb6f1d52802cc928805d5b009d8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+256        </service>
+257
+258        <receiver
+258-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mhokzone/.gradle/caches/transforms-3/94027eb6f1d52802cc928805d5b009d8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+259            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+259-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mhokzone/.gradle/caches/transforms-3/94027eb6f1d52802cc928805d5b009d8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+260            android:exported="false" />
+260-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mhokzone/.gradle/caches/transforms-3/94027eb6f1d52802cc928805d5b009d8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+261    </application>
+262
+263</manifest>
